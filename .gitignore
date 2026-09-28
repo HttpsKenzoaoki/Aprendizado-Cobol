@@ -1,0 +1,26 @@
+# Ignorar arquivos intermediários de compilação do GnuCOBOL
+*.o
+*.c
+*.h
+*.so
+*.dylib
+*.int
+*.gnt
+*.lst
+
+# Se estiver compilando para uma pasta de saída dedicada (ex: bin/ ou build/)
+bin/
+build/
+
+# Estratégia para binários sem extensão na raiz:
+# Ignora arquivos sem extensão, mas mantém arquivos ocultos (como .gitignore)
+*
+!*.*
+!.gitignore
+!README.md
+!LICENSE
+
+# Permite explicitamente as extensões comuns de código COBOL
+!*.cbl
+!*.cob
+!*.cpy
