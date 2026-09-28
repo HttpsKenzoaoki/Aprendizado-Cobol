@@ -11,8 +11,8 @@
        
        01  DATA-ATUAL.
            05 ANO-ATUAL PIC 9(004).
-           05 MES-ATUAL PIC 9(004).
-           05 DIA-ATUAL PIC 9(004).
+           05 MES-ATUAL PIC 9(002).
+           05 DIA-ATUAL PIC 9(002).
 
 000009 PROCEDURE DIVISION.
 000010 PRINCIPAL.
